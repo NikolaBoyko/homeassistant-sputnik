@@ -1,0 +1,13 @@
+{
+  "domain": "sputnik",
+  "name": "Nash dom (Sputnik)",
+  "codeowners": ["@nikola"],
+  "config_flow": true,
+  "dependencies": [],
+  "after_dependencies": ["aiohttp"],
+  "documentation": "https://github.com/NikolaBoyko/homeassistant-sputnik",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/NikolaBoyko/homeassistant-sputnik/issues",
+  "version": "0.1.0"
+}

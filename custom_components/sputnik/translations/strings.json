@@ -1,0 +1,41 @@
+{
+  "config": {
+    "user": {
+      "title": "Sputnik — sign in",
+      "description": "Enter your phone number registered in the Nash dom / Sputnik app. An SMS code will be sent.",
+      "data": {
+        "phone": "Phone number (e.g. +79991234567)",
+        "app_version": "App version header (leave default)",
+        "app_name": "App name header (leave default)",
+        "base_url": "API base URL (leave default)"
+      }
+    },
+    "confirm": {
+      "title": "Enter SMS code",
+      "description": "Enter the code sent to {phone}.",
+      "data": {
+        "auth_code": "SMS / push code"
+      }
+    },
+    "reauth_confirm": {
+      "title": "Re-authenticate",
+      "description": "Your session for {phone} has expired. Press submit to request a new SMS code.",
+      "data": {}
+    },
+    "reauth_code": {
+      "title": "Enter new SMS code",
+      "data": {
+        "auth_code": "SMS / push code"
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials or wrong code.",
+      "cannot_connect": "Cannot reach the Sputnik API. Check your network.",
+      "unknown": "Unexpected error. See the HA log for details.",
+      "rate_limited": "Too many requests. Wait 1-2 minutes and try again."
+    },
+    "abort": {
+      "already_configured": "This phone number is already configured."
+    }
+  }
+}

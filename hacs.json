@@ -1,0 +1,6 @@
+{
+  "name": "Nash dom (Sputnik)",
+  "domains": ["sputnik"],
+  "homeassistant": "2023.6.0",
+  "codeowners": ["@NikolaBoyko"]
+}
